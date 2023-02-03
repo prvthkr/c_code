@@ -27,7 +27,7 @@ int main()
     int arr2[] = {1, 2, 3, 4};
     
     int sz1 = sizeof(arr1) / sizeof(arr1[0]);
-    int sz2 = sizeof(arr2) / sizeof(arr2[0]);
+    int sz2 = sizeof(arr2) / sizeof(arr2[0]); 
     
     int arr[sz1 + sz2];
 
